@@ -1,0 +1,41 @@
+.display{
+    display: flex;
+    background-color: skyblue;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.header {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.songgothon{
+    font-size: xx-large;
+    padding-bottom: 20px;
+    color: black;
+}
+.program{
+    color: white;
+}
+.logo {
+    height: 90px;
+    padding-left: 40px;
+    
+}
+.display nav{
+    margin: auto;
+    padding-top: 10px;
+}
+
+.display a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+.display a:hover {
+    background-color: lightgray;
+}

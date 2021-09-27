@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h4{
+    font-size: 10px;
+    color: #333;
+    font-weight: bold;
+}
+#team img{
+    margin-top: -50px;
+    background-color: skyblue;
+}
+#team i{
+    font-size: 26px;
+}
+.control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#team .card{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow:  5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+#team .card:hover{
+    background-color: #e74c3c;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+#team .card:hover h3, #team .card:hover i{
+    color: #fff;
+}
+.show{
+    background-color: green;
+    height: 60px;
+    cursor: pointer;
+    border:1px solid gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;   
+}
