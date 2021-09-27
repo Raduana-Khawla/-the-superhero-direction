@@ -12,11 +12,13 @@ const Participants = (props) =>{
      <div className="card h-100">
          <div className="card-body">
            <img  src={img} alt="" className="img-fluid rounded-circle w-50 mb-3"/>
+           <div className="card-text">
            <h4>Name: {name}</h4>
            <h6>Gender: {gender}</h6>
            <h6>Role: {role}</h6>
            <h6>Age: {age}</h6>
            <h5>Salary: {salary}</h5>
+           </div>
           </div>
           <div className="control">
           <div>
