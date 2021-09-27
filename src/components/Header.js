@@ -10,7 +10,7 @@ const Header = () =>{
             </div>
         <div className="header">
         <span className="songgothon">Seminar of Ujjibon Shilpi Gosthi</span>
-        <p><small className="program mt-3">Integrated Cultural Parliament Sass</small></p>
+        <p className="program mt-3"><small>Integrated Cultural Parliament Sass</small></p>
         </div>
             <nav>
             <a href="/shop">Participant</a>
